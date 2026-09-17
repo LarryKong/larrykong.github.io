@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mcp-google-multi</title>
+<meta name="description" content="A personal command-line tool that connects its operator's own Google Workspace data to local AI tooling over the Model Context Protocol.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>mcp-google-multi</h1>
+  <p class="sub">A personal tool for reaching my own Google Workspace data from local AI tooling.</p>
+
+  <p>mcp-google-multi is a command-line program I run on my own computers. It exposes Gmail,
+  Drive, Calendar and Sheets to a local AI assistant through the
+  <a href="https://modelcontextprotocol.io">Model Context Protocol</a>, so I can search my mail,
+  read a spreadsheet or check my calendar without leaving the terminal.</p>
+
+  <h2>Who can use it</h2>
+  <p>This is a single-operator project with no sign-up and no hosted service. It runs only on
+  machines I control, and it connects only to Google accounts I own. There is nothing here to
+  install or subscribe to.</p>
+
+  <h2>How it runs</h2>
+  <ul>
+    <li>The program runs as a local process. There is no server component and no backend that I operate.</li>
+    <li>It talks directly to Google's APIs from my machine, using OAuth credentials I granted to my own accounts.</li>
+    <li>Access tokens are encrypted and stored on the local filesystem. They never leave the machine that created them.</li>
+  </ul>
+
+  <h2>Privacy</h2>
+  <p>The <a href="privacy.html">privacy policy</a> describes exactly which Google scopes the tool
+  requests, what it does with the data, and how to revoke its access.</p>
+
+  <footer>
+    Contact: <a href="mailto:laurence.kong1@gmail.com">laurence.kong1@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
