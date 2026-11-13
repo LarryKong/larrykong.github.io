@@ -1,0 +1,3 @@
+- Goal: the homepage (`index.html`) and privacy policy (`privacy.html`) that the Google OAuth consent screen for the `google-multi` MCP server (mcp-google-multi) links to.
+- Status: live and unchanged since its one commit on 2026-09-17; edit it only if the consent screen's scopes or contact details change.
+- Published: GitHub Pages from `main` at the repo root, https://larrykong.github.io/ (privacy policy at /privacy.html).
